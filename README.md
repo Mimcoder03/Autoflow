@@ -71,82 +71,16 @@ Final Report (HTML)
 
 <img width="747" height="1024" alt="image" src="https://github.com/user-attachments/assets/128f768f-81d5-4f85-89b0-597683ac1f4d" />
 
-# 🏗 Agent Breakdown
+.
 
-## 1️⃣ Data Cleaning Agent — “The Sanitizer”
+# 🧩 Core Agent Overview
 
-Cleans and normalizes raw datasets.
-
-**Responsibilities:**
-
-* Detect missing values
-* Suggest/apply imputations
-* Remove or flag outliers
-* Standardize datatypes and formats
-* Produce a cleaning summary
-
-**Outputs:**
-
-* Cleaned `CSV`
-* Cleaning JSON log
-* Warnings & flagged issues
-
----
-
-## 2️⃣ EDA Agent — “The Investigator”
-
-Performs exploratory analysis and extracts essential statistics.
-
-**Responsibilities:**
-
-* Summary statistics
-* Correlation matrix
-* Column-level distributions
-* Data type breakdown
-* Outlier highlight
-
-**Outputs:**
-
-* `eda_results.json`
-* Recommended visualizations list
-
----
-
-## 3️⃣ Visualization Agent — “The Illustrator”
-
-Auto-generates charts and embeds them into HTML.
-
-**Responsibilities:**
-
-* Histograms
-* Boxplots
-* Time-series plots (if applicable)
-* Correlation heatmap
-* Category distribution charts
-
-**Outputs:**
-
-* `charts/` folder containing PNGs or HTML charts
-* Metadata JSON describing each chart
-
----
-
-## 4️⃣ Summary Agent — “The Interpreter”
-
-Creates a polished executive summary that ties everything together.
-
-**Responsibilities:**
-
-* Interpret cleaned data
-* Summarize statistical findings
-* Reference visualizations
-* Provide actionable insights
-
-**Outputs:**
-
-* `analysis_report.html` (final output)
-
----
+| **Agent Name**              | **Role**                  | **Key Responsibilities**                                                                                       | **Outputs**                                          |
+| --------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| **Cleaning Agent**          | Data Preparation          | - Handle missing values<br>- Fix data types<br>- Remove duplicates<br>- Basic transformations                  | **Cleaned dataset** → `data/cleaned/`                |
+| **Analysis Agent**          | Exploratory Data Analysis | - Summary statistics<br>- Correlations<br>- Pattern detection<br>- Anomaly signals<br>- AI-generated summaries | **Insight dictionaries + summary text** → `reports/` |
+| **Visualization Agent**     | Data Visualization        | - Generate charts<br>- Create comparison plots<br>- Visualize trends<br>- Produce export-ready visuals         | **PNG/JPG chart assets** → `reports/`, `dashboard/`  |
+| **Main Orchestrator Agent** | Workflow Automation       | - Executes the full pipeline<br>- Manages logging<br>- Triggers all agents<br>- Handles errors & reporting     | **Final HTML/PDF report + logs + merged outputs**    |
 
 # 📂 Project Structure
 
@@ -174,6 +108,45 @@ Autoflow/
 ```
 
 ---
+# Technologies Used
+* Python — Pandas, NumPy, Matplotlib
+* Agentic Automation (multi-agent pipeline)
+* MCP Tools — for modular utilities & orchestration
+* Jupyter Notebook — Kaggle-friendly analysis environment
+
+# 📘 What I Learned 
+
+# Technical Learnings
+
+* Designing, coordinating, and orchestrating multi-agent workflows
+
+* Structuring modular and scalable Python projects with clear separation of concerns
+
+* Cleaning, transforming, imputing, and validating real-world datasets
+
+* Automating EDA pipelines, statistical reports, and AI-generated summaries
+
+* Creating detailed visualizations (histograms, heatmaps, trends, comparisons) and exporting them as reusable assets
+
+* Building HTML-based reports with embedded charts, summaries, and metadata
+
+* Implementing logging systems for traceability, debugging, and pipeline monitoring
+
+* Managing experiments for versioning, reproducibility, and consistent results
+
+# 🧩 Conceptual Learnings
+
+* How to convert raw business problems into clear, actionable data pipelines
+
+* Understanding the importance of systematic cleaning, transparency, and traceability
+
+* Recognizing how automation reduces repetitive tasks and improves workflow efficiency
+
+* Maintaining readability, structure, and organization across multi-file Python projects
+
+* Collaborating effectively using GitHub and version control best practices
+
+* Gaining a deeper understanding of modern analytics pipelines and how automation elevates productivity and decision-making
 
 # ⚙️ Installation
 
