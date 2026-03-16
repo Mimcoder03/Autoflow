@@ -241,12 +241,3 @@ If you find AutoFlow useful, please consider:
 
 ---
 
-If you want, I can also generate:
-
-✅ **main.py file**
-✅ **Agent boilerplate templates**
-✅ **requirements.txt**
-✅ **Architecture diagram (ASCII or image)**
-✅ **A version tailored for Kaggle or DEV submission**
-
-Just tell me!
