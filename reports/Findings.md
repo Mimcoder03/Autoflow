@@ -1,6 +1,6 @@
-## **ProdigyFlow – Dataset Findings & Insights**
+## **Autoflow – Dataset Findings & Insights**
 
-This document provides a clear and structured summary of the dataset used in the ProdigyFlow pipeline. It highlights the dataset characteristics, statistical patterns, correlations, and insights generated through the automated agents.
+This document provides a clear and structured summary of the dataset used in the Autoflow pipeline. It highlights the dataset characteristics, statistical patterns, correlations, and insights generated through the automated agents.
 
 ---
 
@@ -73,7 +73,7 @@ Overall, the dataset exhibits **very weak correlations**:
 
 ## 🧼 **5. Data Cleaning Notes**
 
-The ProdigyFlow Cleaning Agent applied:
+The Autoflow Cleaning Agent applied:
 
 * Duplicate removal
 * Padding & format checks
@@ -155,7 +155,7 @@ This dataset is suitable for:
 
 ## 🧾 **10. Conclusion**
 
-This dataset is **clean, balanced, unbiased, and rich enough** to demonstrate all key stages of the ProdigyFlow pipeline:
+This dataset is **clean, balanced, unbiased, and rich enough** to demonstrate all key stages of the Autoflow pipeline:
 
 * Cleaning
 * Analysis

@@ -1,6 +1,6 @@
 
 """
-Main Agent for ProdigyFlow
+Main Agent for Autoflow
 -----------------------------------
 This agent coordinates:
 1. Cleaning Agent
@@ -34,7 +34,7 @@ def run_pipeline(
         base_dir = Path(__file__).resolve().parent.parent
         raw_csv_path = str((base_dir / "data" / "data_science_student_marks.csv").resolve())
         cleaned_csv_path = str((base_dir / "data" / "cleaned_student_data.csv").resolve())
-    print("\n🚀 Starting ProdigyFlow Pipeline...\n")
+    print("\n🚀 Starting Autoflow Pipeline...\n")
 
     # -----------------------------------------------------
     # 1. LOAD RAW DATA

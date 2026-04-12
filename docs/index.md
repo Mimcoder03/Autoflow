@@ -1,6 +1,6 @@
-# 🚀 ProdigyFlow — Intelligent Data Analytics Agent
+# 🚀 Autoflow — Intelligent Data Analytics Agent
 
-ProdigyFlow is an **AI-powered multi-agent data analytics framework** designed to automate end-to-end exploratory analysis, visualization, insights generation, and reporting. It enables students, analysts, and researchers to turn raw datasets into meaningful business insights with minimal manual effort.
+Autoflow is an **AI-powered multi-agent data analytics framework** designed to automate end-to-end exploratory analysis, visualization, insights generation, and reporting. It enables students, analysts, and researchers to turn raw datasets into meaningful business insights with minimal manual effort.
 
 This project demonstrates the use of intelligent autonomous data pipelines in real-world scenarios.
 
@@ -15,7 +15,7 @@ We wanted to build a system that:
 - **Allows anyone to analyze datasets without advance ML knowledge**
 - Demonstrates practical learning combining **Python + Data Analytics + Gemini AI**
 
-ProdigyFlow reflects our goal to create **simple, useful, modular tools** that solve real analytical problems while being easy for students and businesses to adopt.
+Autoflow reflects our goal to create **simple, useful, modular tools** that solve real analytical problems while being easy for students and businesses to adopt.
 
 ---
 
@@ -138,7 +138,7 @@ file_path = "data/your_file.csv"
 🔹 Multi-file dataset comparison
 🔹 Plug-and-play Machine Learning agent
 
-ProdigyFlow is only the beginning — we plan to expand it into a fully intelligent analytical automation assistant.
+Autoflow is only the beginning — we plan to expand it into a fully intelligent analytical automation assistant.
 
 ---
 
@@ -149,10 +149,10 @@ If you like this project, please ⭐ star the repository and share feedback!
 ### 🔗 Useful Links
 
 📦 Repository
-[https://github.com/yourusername/prodigyflow](https://github.com/yourusername/prodigyflow)
+[https://github.com/yourusername/Autoflow](https://github.com/yourusername/Autoflow)
 
 📘 Project Documentation
-[https://yourusername.github.io/prodigyflow/](https://yourusername.github.io/prodigyflow/)
+[https://yourusername.github.io/Autoflow/](https://yourusername.github.io/Autoflow/)
 
 ---
 
@@ -162,4 +162,4 @@ This project is released under **MIT License** — feel free to use or modify wi
 
 ---
 
-### **Thank you for exploring ProdigyFlow!**
+### **Thank you for exploring Autoflow!**

@@ -1,4 +1,4 @@
-[2025-11-25 19:33:55] INFO - Starting ProdigyFlow main (log level=INFO)
+[2025-11-25 19:33:55] INFO - Starting Autoflow main (log level=INFO)
 [2025-11-25 19:33:55] INFO - Step 1/5 — Loading raw dataset
 [2025-11-25 19:34:00] INFO - Loaded dataset rows=497 cols=8
 [2025-11-25 19:34:00] INFO - Step 2/5 — Generating cleaning plan (if supported)
@@ -13,7 +13,7 @@
 [2025-11-25 19:34:00] INFO - HTML report generated: reports\report.html
 [2025-11-25 19:34:00] INFO - Pipeline finished successfully in 4.96s
 [2025-11-25 19:34:00] INFO - Run completed. Report available at reports/report.html (if generated)
-[2025-11-25 19:35:53] INFO - Starting ProdigyFlow main (log level=INFO)
+[2025-11-25 19:35:53] INFO - Starting Autoflow main (log level=INFO)
 [2025-11-25 19:35:53] INFO - Step 1/5 — Loading raw dataset
 [2025-11-25 19:35:54] INFO - Loaded dataset rows=497 cols=8
 [2025-11-25 19:35:54] INFO - Step 2/5 — Generating cleaning plan (if supported)

@@ -1,6 +1,6 @@
 # agents/visualization_agent.py
 """
-Visualization Agent for ProdigyFlow
+Visualization Agent for Autoflow
 -----------------------------------
 Generates basic visual charts from the cleaned dataset:
 - Histogram of numeric columns

@@ -1,4 +1,4 @@
-# **ProdigyFlow — Intelligent Data Analytics Agent**
+# **Autoflow — Intelligent Data Analytics Agent**
 
 *A Capstone Project for the Kaggle Agents Intensive Program*
 
@@ -8,9 +8,9 @@
 
 ## **Overview**
 
-**ProdigyFlow** is a fully autonomous, multi-agent data analytics pipeline designed to transform raw, unstructured data into clean datasets, meaningful insights, and ready-to-use visualizations — without manual intervention. Created for the **Kaggle Agents Intensive Capstone Project**, this system demonstrates how intelligent agents can streamline and accelerate traditional analytics workflows.
+**Autoflow** is a fully autonomous, multi-agent data analytics pipeline designed to transform raw, unstructured data into clean datasets, meaningful insights, and ready-to-use visualizations — without manual intervention. Created for the **Kaggle Agents Intensive Capstone Project**, this system demonstrates how intelligent agents can streamline and accelerate traditional analytics workflows.
 
-Instead of writing repetitive cleaning scripts or manually generating plots, ProdigyFlow shows how an agentic architecture can automate **data preparation, exploratory analysis, insight extraction, reporting, and visualization generation** in one coordinated flow.
+Instead of writing repetitive cleaning scripts or manually generating plots, Autoflow shows how an agentic architecture can automate **data preparation, exploratory analysis, insight extraction, reporting, and visualization generation** in one coordinated flow.
 
 The result is a modern, efficient, and scalable analytics pipeline that reflects real-world industry processes and the future direction of automated data intelligence.
 
@@ -40,7 +40,7 @@ Our goal was to create something academically strong, professionally relevant, a
 
 ## **Project Goals**
 
-ProdigyFlow automates the core components of the analytics lifecycle:
+Autoflow automates the core components of the analytics lifecycle:
 
 1. **Data Ingestion & Cleaning**
 2. **Exploratory Data Analysis (EDA)**
@@ -51,7 +51,7 @@ ProdigyFlow automates the core components of the analytics lifecycle:
 
 ## **System Architecture**
 
-ProdigyFlow is built as a multi-agent system, with each agent responsible for a single stage of the pipeline:
+Autoflow is built as a multi-agent system, with each agent responsible for a single stage of the pipeline:
 
 * **Cleaning Agent** — Parses and cleans raw data
 * **Analysis Agent** — Performs structured EDA and auto-summaries
@@ -60,14 +60,14 @@ ProdigyFlow is built as a multi-agent system, with each agent responsible for a 
 
 It uses a tools layer (MCP utilities) for data handling, visualization, logging, and reporting.
 
-<img width="700" height="900" alt="PRODIGYFLOW ARCH" src="https://github.com/user-attachments/assets/5b92719b-6088-414f-94ee-4d1838701918" />
+<img width="700" height="900" alt="Autoflow ARCH" src="https://github.com/user-attachments/assets/5b92719b-6088-414f-94ee-4d1838701918" />
 
 ---
 
 ## **Repository Structure**
 
 ```
-ProdigyFlow/
+Autoflow/
 │
 ├── data/               
 │   ├── raw/
@@ -86,7 +86,7 @@ ProdigyFlow/
 │   ├── Findings.md
 │   └── Architecture_Diagram.png
 ├── dashboard/          
-├── prodigyflow-kaggle-notebook.ipynb
+├── Autoflow-kaggle-notebook.ipynb
 ├── test_gemini.py     
 ├── README.md
 ├── requirements.txt
@@ -156,8 +156,8 @@ This project deepened our understanding of modern analytics pipelines and how au
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/ProdigyFlow.git
-cd ProdigyFlow
+git clone https://github.com/yourusername/Autoflow.git
+cd Autoflow
 ```
 
 2. **Install dependencies**
