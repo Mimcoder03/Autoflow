@@ -4,6 +4,8 @@
 
 <img width="900" height="550" alt="main thumbnail" src="autoflow_thumbnail.png" />
 
+[![View Notebook](https://img.shields.io/badge/View-Jupyter_Notebook-F37626?style=for-the-badge&logo=jupyter)](Autoflow-kaggle-notebook.ipynb)
+
 ---
 
 ## **Overview**
